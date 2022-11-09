@@ -3,6 +3,7 @@ import "./App.css";
 import TaskList from "./components/container/TaskList";
 import LoginFormik from "./components/pure/forms/LoginFormik";
 import RegisterFormik from "./components/pure/forms/RegisterFormik";
+import TaskFormik from "./components/pure/forms/TaskFormik";
 // import Ejemplo2 from './hooks/Ejemplo2';
 // import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from "./hooks/Ejemplo4";
@@ -15,7 +16,8 @@ function App() {
         </Ejemplo4> */}
       {/* <TaskList /> */}
       {/* <LoginFormik /> */}
-      <RegisterFormik />
+      {/* <RegisterFormik /> */}
+      <TaskFormik />
     </div>
   );
 }
